@@ -8,7 +8,8 @@ body {
   background-color: #138073;
   width: 80px;
   height: 80px;
-  font-size: 28px;
+  font-size: 38px;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +51,7 @@ form {
     margin: 30px;
     height: 60px;
     background-color: #138073;
-    border: 1px 1px 2px white;
+    border: 1px solid white;
   }
   .button-container {
     display: flex;
@@ -64,7 +65,7 @@ form {
     justify-content: center;
   }
   form{
-    width: 80%;
+    width: 90%;
   }
   h2 {
     margin: 10px;
