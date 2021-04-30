@@ -1,0 +1,168 @@
+body {
+  background-color: #22b573;
+  color: #e0ece6;
+  user-select: none;
+}
+
+.icon-container {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+#main-header {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+  font-weight: 100;
+}
+
+.grid-container {
+  position: relative;
+  display: grid;
+  margin-top: 60px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.card {
+  width: 60%;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.card-container {
+  height: 80%;
+}
+.card-container p {
+  margin: 30px;
+}
+.card-container h5 {
+  color: #d9b754;
+  margin: 30px;
+}
+
+.read-more {
+  color: #d9b754;
+  margin: 8px 0px;
+}
+
+#card-3 i {
+  font-size: 200px;
+}
+#card-3 .play-container {
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-1 .card-container {
+  background-color: black;
+}
+
+#card-2 .card-container {
+  background-color: white;
+  color: black;
+}
+
+#card-3 .card-container {
+  background-color: black;
+}
+
+.card {
+  background-color: #22b573;
+  border: 1px solid #22b573;
+}
+
+@media only screen and (max-width: 600px) {
+  .icon-container {
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+
+  #main-header {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 100;
+    margin: 30px 10px;
+  }
+
+  .grid-container {
+    position: relative;
+    display: grid;
+    margin-top: 60px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .card {
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+  }
+
+  .card-container {
+    height: 80%;
+  }
+  .card-container p {
+    margin: 30px;
+  }
+  .card-container h5 {
+    color: #d9b754;
+    margin: 30px;
+  }
+
+  .read-more {
+    color: #d9b754;
+    margin: 8px 0px;
+  }
+
+  #card-3 i {
+    font-size: 200px;
+  }
+  #card-3 .play-container {
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #card-1 .card-container {
+    background-color: black;
+  }
+
+  #card-2 .card-container {
+    background-color: white;
+    color: black;
+  }
+
+  #card-3 .card-container {
+    background-color: black;
+  }
+
+  .card {
+    background-color: #22b573;
+    border: 1px solid #22b573;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

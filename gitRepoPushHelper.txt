@@ -1,0 +1,9 @@
+git remote add pages "git repo cím"
+git push -u pages master
+////////////////////////////////////////////////////
+
+git remote add docker"git repo cím"
+git push -u docker master
+
+új repó dockerhub utána új repo clone aztán belemásolni a file-okat majd push
+kész
